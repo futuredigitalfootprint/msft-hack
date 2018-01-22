@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>dc3dc43b-bbac-4805-8bc9-4feb8b737dd8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +10,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Jil" Version="2.15.4" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.Azure.EventHubs" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\submodules\Microsoft.AspNetCore.Proxy\src\Microsoft.AspNetCore.Proxy\Microsoft.AspNetCore.Proxy.csproj" />
   </ItemGroup>
 
 </Project>

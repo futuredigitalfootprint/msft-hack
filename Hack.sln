@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1ADEF5DB-D7C8-4289-A360-BAF0A6D5BF2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hack.Edge", "src\Hack.Edge\Hack.Edge.csproj", "{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hack.Edge", "src\Hack.Edge\Hack.Edge.csproj", "{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{9CF24AB2-AEBE-4A7A-9631-6E472ABBDA18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Proxy", "submodules\Microsoft.AspNetCore.Proxy\src\Microsoft.AspNetCore.Proxy\Microsoft.AspNetCore.Proxy.csproj", "{929B99F7-3EA1-42C6-BE3D-E87488B5748C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929B99F7-3EA1-42C6-BE3D-E87488B5748C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929B99F7-3EA1-42C6-BE3D-E87488B5748C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929B99F7-3EA1-42C6-BE3D-E87488B5748C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929B99F7-3EA1-42C6-BE3D-E87488B5748C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F40491CE-80C8-46EA-BE39-1FD7B9F1C15F} = {1ADEF5DB-D7C8-4289-A360-BAF0A6D5BF2B}
+		{929B99F7-3EA1-42C6-BE3D-E87488B5748C} = {9CF24AB2-AEBE-4A7A-9631-6E472ABBDA18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64A4DB41-D21C-4EAE-AC58-FCBADCA1E6ED}
