@@ -1,3 +1,0 @@
-[submodule "submodules/Microsoft.AspNetCore.Proxy"]
-	path = submodules/Microsoft.AspNetCore.Proxy
-	url = https://github.com/aspnet/Proxy.git
